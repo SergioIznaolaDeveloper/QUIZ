@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@500&display=swap");
+    </style>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Quiz</title>
+  </head>
+  <body>
+    <form class="form" name="animales">
+      <fieldset class="form__section">
+        <p class="form__question">1-¿Cuantos años vive un galápago?</p>
+        <div class="form__answers">
+          <div class="form__a12">
+            <div class="form__a1">
+              <label class="form__respuesta" for="resp1_1">50-60</label>
+              <input
+                class="radio"
+                type="radio"
+                name="options1"
+                value="incorrecto"
+              />
+            </div>
+            <div class="form__a2">
+              <label class="form__respuesta" for="resp1_2">25-35</label>
+              <input
+                class="radio"
+                type="radio"
+                name="options1"
+                id="correcto"
+                value="correcto"
+              />
+            </div>
+          </div>
+          <div class="form__a34">
+            <div class="form__a3">
+              <label for="sorcerer-field">100+</label>
+              <input
+                class="radio"
+                id="sorcerer-field"
+                type="radio"
+                name="options1"
+                value="mago"
+              />
+            </div>
+            <div class="form__a4">
+              <label for="sailor-field">70-90</label>
+              <input
+                class="radio"
+                id="sailor-field"
+                type="radio"
+                name="options1"
+                value="marinero"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form__section">
+        <p class="form__question">2-¿Cuántos dientes tiene un mosquito?</p>
+        <div class="form__answers">
+          <div class="form__a12">
+            <div class="form__a1">
+              <label class="" for="bard-field">17</label>
+              <input
+                class="radio"
+                id="bard-field"
+                type="radio"
+                name="options2"
+                id="bardo"
+              />
+            </div>
+            <div class="form__a2">
+              <label for="merchant-field">47</label>
+              <input
+                class="radio"
+                class="correcto"
+                type="radio"
+                name="options2"
+                id="correcto"
+              />
+            </div>
+          </div>
+          <div class="form__a34">
+            <div class="form__a3">
+              <label for="sorcerer-field">27</label>
+              <input
+                class="radio"
+                id="sorcerer-field"
+                type="radio"
+                name="options2"
+                value="mago"
+              />
+            </div>
+            <div class="form__a4">
+              <label for="sailor-field">Ninguno</label>
+              <input
+                class="radio"
+                id="sailor-field"
+                type="radio"
+                name="options2"
+                value="marinero"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form__section">
+        <p class="form__question">3-¿Cuál es el animal que más duerme?</p>
+        <div class="form__answers">
+          <div class="form__a12">
+            <div class="form__a1">
+              <label class="" for="bard-field">Gato</label>
+              <input
+                class="radio"
+                id="bard-field"
+                type="radio"
+                name="options3"
+                value="bardo"
+              />
+            </div>
+            <div class="form__a2">
+              <label for="merchant-field">Koala</label>
+              <input
+                class="radio"
+                class="correcto"
+                type="radio"
+                name="options3"
+                id="correcto"
+              />
+            </div>
+          </div>
+          <div class="form__a34">
+            <div class="form__a3">
+              <label for="sorcerer-field">Oso Perezoso</label>
+              <input
+                class="radio"
+                id="sorcerer-field"
+                type="radio"
+                name="options3"
+                value="mago"
+              />
+            </div>
+            <div class="form__a4">
+              <label for="sailor-field">Tortuga</label>
+              <input
+                class="radio"
+                id="sailor-field"
+                type="radio"
+                name="options3"
+                value="marinero"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form__section">
+        <p class="form__question">
+          4-¿Cuantas veces por segundo aletea un colibrí?
+        </p>
+        <div class="form__answers">
+          <div class="form__a12">
+            <div class="form__a1">
+              <label class="" for="bard-field">85</label>
+              <input
+                class="radio"
+                id="bard-field"
+                type="radio"
+                name="options4"
+                value="bardo"
+              />
+            </div>
+            <div class="form__a2">
+              <label for="merchant-field">12</label>
+              <input
+                class="radio"
+                id="merchant-field"
+                type="radio"
+                nname="options4"
+                value="mercader"
+              />
+            </div>
+          </div>
+          <div class="form__a34">
+            <div class="form__a3">
+              <label for="sorcerer-field">53</label>
+              <input
+                class="correcto"
+                type="radio"
+                name="options4"
+                id="correcto"
+              />
+            </div>
+            <div class="form__a4">
+              <label for="sailor-field">118</label>
+              <input
+                class="radio"
+                id="sailor-field"
+                type="radio"
+                name="options4"
+                value="marinero"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form__section">
+        <p class="form__question">
+          5-¿Cual de estos es el animal más rápido del mundo?
+        </p>
+        <div class="form__answers">
+          <div class="form__a12">
+            <div class="form__a1">
+              <label class="" for="bard-field">Guepardo</label>
+              <input id="csd" type="radio" name="elminster" value="bardo" />
+            </div>
+            <div class="form__a2">
+              <label for="merchant-field">Aguila dorada</label>
+              <input
+                class="radio"
+                id="merchant-field"
+                type="radio"
+                name="options5"
+                value="mercader"
+              />
+            </div>
+          </div>
+          <div class="form__a34">
+            <div class="form__a3">
+              <label for="sorcerer-field">Alcatraz</label>
+              <input
+                class="radio"
+                id="sorcerer-field"
+                type="radio"
+                name="options5"
+                value="mago"
+              />
+            </div>
+            <div class="form__a4">
+              <label for="sailor-field">Halcón</label>
+              <input
+                class="radio"
+                class="correcto"
+                type="radio"
+                name="options5"
+                value="correcto"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form__section">
+        <p class="form__question">
+          6-¿Cuál de estos es el animal más antiguo del planeta?
+        </p>
+        <div class="form__answers">
+          <div class="form__a12">
+            <div class="form__a1">
+              <label class="" for="bard-field">Tiburón elefante</label>
+              <input
+                class="radio"
+                id="bard-field"
+                type="radio"
+                name="options6"
+                value="bardo"
+              />
+            </div>
+            <div class="form__a2">
+              <label for="merchant-field">Cucaracha</label>
+              <input
+                class="radio"
+                id="merchant-field"
+                type="radio"
+                name="options6"
+                value="mercader"
+              />
+            </div>
+          </div>
+          <div class="form__a34">
+            <div class="form__a3">
+              <label for="sorcerer-field">Medusa</label>
+              <input
+                class="correcto"
+                type="radio"
+                name="options6"
+                value="correcto"
+              />
+            </div>
+            <div class="form__a4">
+              <label for="sailor-field">Gusano aterciopelado</label>
+              <input
+                class="radio"
+                id="sailor-field"
+                type="radio"
+                name="options6"
+                value="marinero"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form__section">
+        <p class="form__question">
+          7-Animal semiacuático, oviparo que se alimenta principalmente de
+          vertebrados.
+        </p>
+        <div class="form__answers">
+          <div class="form__a12">
+            <div class="form__a1">
+              <label class="" for="bard-field">Sapo</label>
+              <input
+                class="radio"
+                id="bard-field"
+                type="radio"
+                name="options7"
+                value="bardo"
+              />
+            </div>
+            <div class="form__a2">
+              <label for="merchant-field">Cocodrilo</label>
+              <input
+                class="radio"
+                class="correcto"
+                type="radio"
+                name="options7"
+                value="correcto"
+              />
+            </div>
+          </div>
+          <div class="form__a34">
+            <div class="form__a3">
+              <label for="sorcerer-field">Culebra de rio</label>
+              <input
+                class="radio"
+                id="sorcerer-field"
+                type="radio"
+                name="options7"
+                value="mago"
+              />
+            </div>
+            <div class="form__a4">
+              <label for="sailor-field">Delfin</label>
+              <input
+                class="radio"
+                id="sailor-field"
+                type="radio"
+                name="options7"
+                value="marinero"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form__section">
+        <p class="form__question">
+          8-¿Cuál es el animal con mejor memoria secuencial?
+        </p>
+        <div class="form__answers">
+          <div class="form__a12">
+            <div class="form__a1">
+              <label class="" for="bard-field">Humano</label>
+              <input
+                class="radio"
+                id="bard-field"
+                type="radio"
+                name="options8"
+                value="Humano"
+              />
+            </div>
+            <div class="form__a2">
+              <label for="merchant-field">
+                <input
+                  class="radio"
+                  id="merchant-field"
+                  type="radio"
+                  name="options8"
+                  value="Delfin"
+                />Delfin</label
+              >
+            </div>
+          </div>
+          <div class="form__a34">
+            <div class="form__a3">
+              <label for="sorcerer-field">
+                <input
+                  class="radio"
+                  class="correcto"
+                  type="radio"
+                  name="options8"
+                  value="correcto"
+                />
+                Chimpancé</label
+              >
+            </div>
+            <div class="form__a4">
+              <label for="sailor-field">Cuervo</label>
+              <input
+                class="radio"
+                id="sailor-field"
+                type="radio"
+                name="options8"
+                value="Cuervo"
+              />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form__section">
+        <p class="form__question">9-¿Cuantos estómagos tiene una vaca?</p>
+        <div class="form__answers">
+          <div class="form__a12">
+            <div class="form__a1">
+              <label class="" for="bard-field">
+                <input
+                  class="radio"
+                  id="bard-field"
+                  type="radio"
+                  name="options9"
+                  value="1"
+                />1</label
+              >
+            </div>
+            <div class="form__a2">
+              <label for="merchant-field">
+                <input
+                  class="radio"
+                  id="merchant-field"
+                  type="radio"
+                  name="options9"
+                  value="2"
+                />2</label
+              >
+            </div>
+          </div>
+          <div class="form__a34">
+            <div class="form__a3">
+              <label for="sorcerer-field">
+                <input
+                  class="radio"
+                  id="sorcerer-field"
+                  type="radio"
+                  name="options9"
+                  value="3"
+                />3</label
+              >
+            </div>
+            <div class="form__a4">
+              <label for="sailor-field">
+                <input
+                  class="radio"
+                  class="correcto"
+                  type="radio"
+                  name="options9"
+                  value="correcto"
+                />4</label
+              >
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form__section">
+        <p class="form__question">10-¿Cual es el animal con mas ojos?</p>
+
+        <div class="form__answers">
+          <div class="form__a12">
+            <div class="form__a1">
+              <label class="" for="bard-field">
+                <input
+                  class="radio"
+                  class="correcto"
+                  type="radio"
+                  name="options10"
+                  value="correcto"
+                />Medusa</label
+              >
+            </div>
+            <div class="form__a2">
+              <label for="merchant-field">
+                <input
+                  class="radio"
+                  id="merchant-field"
+                  type="radio"
+                  name="options10"
+                  value="Abeja"
+                />Abeja</label
+              >
+            </div>
+          </div>
+          <div class="form__a34">
+            <div class="form__a3">
+              <label for="sorcerer-field">
+                <input
+                  class="radio"
+                  id="sorcerer-field"
+                  type="radio"
+                  name="options10"
+                  value="Mosca"
+                />Mosca</label
+              >
+            </div>
+            <div class="form__a4">
+              <label for="sailor-field">
+                <input
+                  id="sailor-field"
+                  class="radio"
+                  type="radio"
+                  name="options10"
+                  value="Araña"
+                />Araña</label
+              >
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <button type="submit">Comprobar datos</button>
+    </form>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
