@@ -2,22 +2,14 @@
 // si check en correcto valor 1 si no valor 0 añadir a variable contador
 let contador = 0;
 
-document
-  .querySelector(".form")
-  .addEventListener("submit", function (event) {
-    event.preventDefault(); // Frena el envío de formulario
-    
-        let correctos = document.querySelectorAll("correcto");
+document.querySelector(".form").addEventListener("submit", function (event) {
+  event.preventDefault(); // Frena el envío de formulario
 
-        for (i = 0; i < correctos.length; i++) {
-          if (event.target.correcto.checked) {
-            contador++;
-          }
-        }
-      });
+  let correctos = document.querySelectorAll("#correcto");
 
-
-//   if(!document.querySelector('input[name="correcto"]:checked')) {
-//     alert('Error, rellena el campo horario');
-//     hasError = true;
-//}
+  for (i = 0; i < correctos.length; i++) {
+    if (event.target.correcto[i].checked) {
+      contador++;
+    }
+  }
+});
