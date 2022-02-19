@@ -85,6 +85,10 @@ body {
   opacity: 50%;
 }
 
+.radio:focus{
+opacity: 100%;
+}
+
 @media screen and (max-width: 760px) {
   .form__answers {
     display: flex;
