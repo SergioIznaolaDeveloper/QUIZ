@@ -36,13 +36,13 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
 }
 .form__a34 {
-  display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row;
+  display: flex;
+  flex-flow: column;
 }
 .form__a1,
 .form__a2,
@@ -111,24 +111,24 @@ body {
   background-color: #f9dbbd;
 }
 
-#boton{
-  margin:5px auto;
+#boton {
+  margin: 5px auto;
   border-radius: 15px;
   background-color: #052939;
   color: white;
   width: 20%;
   border: 3px solid white;
-  box-shadow: 0.2em 0.2em 1em 0px #0D0628;
+  box-shadow: 0.2em 0.2em 1em 0px #0d0628;
   padding: 10px;
   font-family: Oswald;
   font-size: 20px;
   transition: 00.5s;
-  }
+}
 
-#boton:hover{
+#boton:hover {
   box-shadow: 0.1em 0.1em 1em 0px #efa032;
-  transform:scale(1.03);
-  background-color:#1088bb
+  transform: scale(1.03);
+  background-color: #1088bb;
 }
 
 /* ALERTAS */
@@ -158,7 +158,7 @@ body {
 #alertOk8,
 #alertOk9,
 #alertOk10,
-#alertOk11{
+#alertOk11 {
   margin-top: 25px;
   display: none;
   justify-content: center;
@@ -214,28 +214,16 @@ body {
   text-shadow: 0em 0em 1em 0px #052939;
 }
 
-@media screen and (max-width: 760px) {
-  .form__answers {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-  }
-  .form__a12 {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-flow: column;
-  }
-  .form__a34 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-  }
-}
-@media screen and (max-width: 768px) {
-}
+@media screen and (min-width: 760px) {
 
+.form__a34,
+.form__a12 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+}
+}
 /* PÄGINA DE INDEX */
 
 #bodyindex {
