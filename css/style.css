@@ -151,7 +151,7 @@ text-align: center;
 #alertOk9,
 #alertOk10,
 #alertOk11 {
-  margin-top: 150px;
+  margin-top: 25px;
   display: none;
   justify-content: center;
   align-items: center;
@@ -243,6 +243,7 @@ text-align: center;
 /* PÄGINA DE INDEX */
 
 .contenido {
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -277,7 +278,7 @@ text-align: center;
 }
 
 .contenido > #titulo {
-  margin: 30px 30px 15px 0px;
+  margin: 30px 30px 25px 0px;
   font-size: 70px;
   text-align: center;
   color: #fcedd8;
@@ -288,22 +289,22 @@ text-align: center;
     35px 35px 0px #c11a2b, 40px 40px 0px #c11a2b, 45px 45px 0px #c11a2b;
 }
 
-.contenido > #inicio {
+#inicio {
   font-family: Dancing script;
   text-align: center;
   color: aliceblue;
   font-size: 40px;
   padding: 0 40px;
 }
-.contenido > #inicio > span {
-  font-size: 70px;
+#inicio > span {
+  font-size: 75px;
   letter-spacing: 0.1em;
   -webkit-text-stroke-color: white;
   text-shadow: 8px 8px #c11a2b, 20px 20px #000000;
 }
 
 .contenido > p {
-  margin: 10px;
+  margin: 20px;
   color: #0d0628;
   font-family: Dancing script;
   font-size: 30px;
