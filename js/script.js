@@ -1,15 +1,3 @@
-// HOOVER CHECKED
-
-// var radioButTrat = document.querySelectorAll(".radio");
-// for (var x = 0; x < radioButTrat.length; x++) {
-//   if (radioButTrat[x].checked === true) {
-//     let preguntas1 = document.getElementsByName("activos");
-//     for (var y = 0; y < preguntas1.length; y++) {
-//       preguntas1[y].className = "marcados";
-//     }
-//   }
-// }
-
 //MASTER FUNCTION
 
 function evalQuiz(event) {
@@ -44,7 +32,7 @@ function evalQuiz(event) {
     document.querySelector(".form").style.filter = "blur(5px)";
     document.querySelector(
       "#alertNoCheck"
-    ).innerHTML = `HAS OLVIDADO RESPONDER A ${
+    ).innerHTML = `HAS OLVIDADO RESPONDER <br/> ${
       10 - preguntasRespondidas.length
     } PREGUNTAS`;
     document
@@ -54,8 +42,8 @@ function evalQuiz(event) {
         document.querySelector(".form").style.filter = "blur(0px)";
       });
   } else {
-    /* PROMPT APARECE Y DESAPARECE IMPRIMIENDO VARIOS */
-    /* RESULTADOS */
+    /* PROMPT APARECE Y DESAPARECE IMPRIMIENDO NUMERO DE ACIERTOS Y ANIMAL ASOCIADO */
+    
     if (aciertos === 0) {
       document.querySelector("#alertOk1").style.display = "block";
       document.querySelector(".form").style.filter = "blur(5px)";
